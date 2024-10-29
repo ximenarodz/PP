@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina personal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ximena Rodriguez</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="sobre mi">
+        <h2>Sobre mi</h2>
+        <p>Tengo 19 años, vivo en Lima, San Miguel. Estudio Sistemas de Informacion en ISIL.</p>
+    </section>  
+    <section id="Proyectos">
+        <h2>Proyectos</h2>
+        <section class="tablas">
+            <h2>Creando tablas personalizadas</h2>
+            <p>Uso de funciones de tablas para elementos</p>
+            <div class="tabla01">
+                <table>
+                    <caption>Lista de usuarios</caption>
+                    <tr>
+                        <th>Imagen 1</th>
+                        <th>Imagen 2</th>
+                        <th>Imagen 3</th>
+                    </tr>
+                    <tr>
+                        <td>0001</td>
+                        <td>0002</td>
+                        <td>0003</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </section>
+    <section class="Contacto">
+        <h2>Contacto</h2>
+        <section class="formulario">
+            <h2>DATOS DEL VISITANTE</h2>
+            <p>Ingresa tus datos</p>
+            <div class="form_contacto">
+                <form>
+                    <label>Nombre Completo</label><br>
+                    <input type="text" placeholder="Ingresa tu Nombre">
+                    <br>
+                    <div class="opciones">
+                        <h4>Mayor o menor de edad</h4>
+                        <input type="radio" name="edad"> Mayor
+                        <input type="radio" name="edad"> Menor
+                    </div>
+                    <br>
+                    <label>Edad</label>
+                    <br>
+                    <input type="text" placeholder="Ingresa tu edad">
+                    <br>
+                    <label>Telefono</label>
+                    <br>
+                    <input type="text" placeholder="Ingresa tu numero de telefono">
+                    <br>
+                    <label>Dejanos un comentario:</label>
+                    <br>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                    <br>
+                    <input type="submit">
+                </form>
+            </div>
+        </section>
+    </section>
+    <section class="mapas">
+        <h2>Ubicacion del distrito de su casa</h2>
+        <div class="mgoogle">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31211.89956975254!2d-77.11213968466069!3d-12.078745926469523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c964223bb347%3A0x2013e50c7a7d23d4!2sSan%20Miguel!5e0!3m2!1ses-419!2spe!4v1730224084899!5m2!1ses-419!2spe" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+         
+</body>
+</html>
